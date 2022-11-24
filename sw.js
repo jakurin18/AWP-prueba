@@ -21,7 +21,7 @@ if (workbox){
         }) 
     );
     //Hacemos   ue el contenido en JS y CSS sean rápidos y devuelvan los assets de la caché mientras se easegura de que se actualicen en segundo plano para el proximo uso.
-    workbox.routing.register.Route(
+    workbox.routing.registerRoute(
         /.*\.(?:css|js|scss)/,
         //Usamos el cache y lo actualizamos en 2do plano.
         new workbox.strategies.StaleWhileRevalidate({ //Permite controlar los eventos
