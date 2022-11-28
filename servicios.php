@@ -12,6 +12,16 @@
   
   
   <title>Servicios</title>
+    <!-- Importante agregar el favicon -->
+    <link rel="shortcut icon" href="public/img/favicon.png" type="image/x-icon">
+
+    <!-- Importante agregar el maifest.json -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Theme color -->
+    <meta name="theme-color">
+
+	
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
