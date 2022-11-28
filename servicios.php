@@ -505,6 +505,21 @@
             })
         }
     </script>
+  <script>
+    if ('serviceWorker' in navigator) 
+    {
+	window.addEventListener('load',() =>
+	{
+		navigator.serviceWorker.register('sw.js').then(() =>
+		{
+			console.log('Im the Service Worker Registered and Working.');
+		}).catch(error => 
+			{
+				console.log("There was an ERROR.". error);
+			});
+	});
+    }
+    </script>
   
   
 </body>
